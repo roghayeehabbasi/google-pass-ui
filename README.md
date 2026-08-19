@@ -2,6 +2,8 @@
 
 This is a simple, dark-themed clone of the Google Sign-In page built with HTML and CSS. It's a front-end practice project focused on replicating the clean, modern look of Google's authentication interface.
 
+![Project Screenshot](image.png)
+
 ## Features
 
 - Dark mode design
