@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign in – Google</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            body {
+                background-color: #202124;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: #e8eaed;
+            }
+
+            .container {
+                background-color: #303134;
+                width: 400px;
+                padding: 48px 40px 36px;
+                border-radius: 8px;
+                text-align: center;
+            }
+
+            .logo {
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 16px;
+            }
+
+            .logo span:nth-child(1) {
+                color: #4285F4;
+            }
+
+            .logo span:nth-child(2) {
+                color: #EA4335;
+            }
+
+            .logo span:nth-child(3) {
+                color: #FBBC05;
+            }
+
+            .logo span:nth-child(4) {
+                color: #4285F4;
+            }
+
+            .logo span:nth-child(5) {
+                color: #34A853;
+            }
+
+            .logo span:nth-child(6) {
+                color: #EA4335;
+            }
+
+            h1 {
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 8px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+                margin-bottom: 24px;
+                color: #bdc1c6;
+            }
+
+            .input-group {
+                position: relative;
+                margin-bottom: 24px;
+            }
+
+            input {
+                width: 100%;
+                padding: 16px 12px;
+                background: transparent;
+                border: 1px solid #5f6368;
+                border-radius: 4px;
+                color: #e8eaed;
+                font-size: 16px;
+                outline: none;
+                transition: 0.3s;
+            }
+
+            input:focus {
+                border-color: #8ab4f8;
+            }
+
+            .actions {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 32px;
+            }
+
+            .actions a {
+                text-decoration: none;
+                color: #8ab4f8;
+                font-size: 14px;
+            }
+
+            button {
+                background-color: #8ab4f8;
+                border: none;
+                padding: 10px 24px;
+                border-radius: 4px;
+                font-size: 14px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            button:hover {
+                background-color: #669df6;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="logo">
+                <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            </div>
+
+            <h1>Sign in</h1>
+            <div class="subtitle">Use your Google Account</div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Email or phone">
+            </div>
+
+            <div class="actions">
+                <a href="#">Forgot email?</a>
+                <button>Next</button>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
